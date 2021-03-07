@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "office": "DEVICE=10009828a2 node index.js",
+    "bed": "DEVICE=100098ba92 node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ewelink-api": "^3.1.1"
+  }
+}
